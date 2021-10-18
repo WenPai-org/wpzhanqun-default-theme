@@ -30,7 +30,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 //force multisite
 if ( ! is_multisite() ) {
-	exit( __( 'WPZhanqun Default Theme is only compatible with Multisite installs.', 'defaulttheme' ) );
+	exit( __( 'WPZhanqun Default Theme is only compatible with Multisite installs.', 'wpzhanqun-default-theme' ) );
 }
 
 //------------------------------------------------------------------------//
@@ -48,7 +48,7 @@ add_action( 'wpmu_new_blog', 'default_theme_switch_theme', 1, 1 );
 
 function default_theme_localization() {
 	// Load up the localization file if we're using WordPress in a different language
-	// Place it in this plugin's "languages" folder and name it "defaulttheme-[value in wp-config].mo"
+	// Place it in this plugin's "languages" folder and name it "wpzhanqun-default-theme-[value in wp-config].mo"
 	load_plugin_textdomain( 'wpzhanqun-default-theme', false, '/wpzhanqun-default-theme/languages' );
 }
 
