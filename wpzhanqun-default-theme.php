@@ -90,10 +90,10 @@ function default_theme_site_admin_options() {
 		$default_theme = 'default';
 	}
 	?>
-	<h3><?php _e( 'Theme Settings', 'defaulttheme' ) ?></h3>
+	<h3><?php _e( 'Theme Settings', 'wpzhanqun-default-theme' ) ?></h3>
 	<table class="form-table">
 		<tr valign="top">
-			<th scope="row"><?php _e( 'Default Theme', 'defaulttheme' ) ?></th>
+			<th scope="row"><?php _e( 'Default Theme', 'wpzhanqun-default-theme' ) ?></th>
 			<td><select name="default_theme">
 					<?php
 					foreach ( $themes as $key => $theme ) {
@@ -102,7 +102,7 @@ function default_theme_site_admin_options() {
 					}
 					?>
 				</select>
-				<br/><?php _e( 'Default theme applied to new sites.', 'defaulttheme' ); ?></td>
+				<br/><?php _e( 'The selected default theme applies to the new sites.', 'wpzhanqun-default-theme' ); ?></td>
 		</tr>
 	</table>
 	<?php

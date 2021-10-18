@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WPZhanqun Default Theme\n"
-"POT-Creation-Date: 2021-10-18 13:10+0800\n"
-"PO-Revision-Date: 2021-10-18 13:17+0800\n"
+"POT-Creation-Date: 2021-10-18 13:39+0800\n"
+"PO-Revision-Date: 2021-10-18 13:39+0800\n"
 "Last-Translator: 薇晓朵 <support@weixiaoduo.com>\n"
 "Language-Team: 薇晓朵 <support@weixiaoduo.com>\n"
 "Language: zh_CN\n"
@@ -34,8 +34,8 @@ msgid "Default Theme"
 msgstr "默认主题"
 
 #: wpzhanqun-default-theme.php:105
-msgid "Default theme applied to new sites."
-msgstr "默认主题适用于新网站。"
+msgid "The selected default theme applies to the new sites."
+msgstr "选定的默认主题适用于新站点。"
 
 #. Plugin Name of the plugin/theme
 msgid "WPZhanqun Default Theme"
